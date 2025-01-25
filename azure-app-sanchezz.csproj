@@ -5,6 +5,13 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <RootNamespace>azure_app_sanchezz</RootNamespace>
+    <ApplicationInsightsResourceId>/subscriptions/aac75f6f-636e-4326-8524-85bac264ac90/resourceGroups/az-group-rg/providers/microsoft.insights/components/azure-app-sanchezz-vs</ApplicationInsightsResourceId>
+    <UserSecretsId>ea592994-cae7-4085-aeb3-6dc92410986e</UserSecretsId>
   </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Identity" Version="1.13.0" />
+    <PackageReference Include="Microsoft.ApplicationInsights.AspNetCore" Version="2.22.0" />
+  </ItemGroup>
 
 </Project>
